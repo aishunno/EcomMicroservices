@@ -1,7 +1,7 @@
 ﻿using Framework.Core.CQRS;
 using Product.Command.Application.Dto;
 
-namespace Product.Command.Application.Commands;
+namespace Product.Command.Application.Commands.CreateProduct;
 
 public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand, CreateProductResponse>
 {
